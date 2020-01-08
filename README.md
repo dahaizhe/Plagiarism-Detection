@@ -7,6 +7,17 @@ With the rapid development of information technology, students nowadays can easi
 
 Compared to the field of academic researches, where practitioners tend to have a high moral standard, plagiarism is more likely to happen in our daily student life. For example, some students would plagiarize in their essays because they run out of ideas or they simply want to get a better grade. Plagiarism like this is unfair to the other honest students and it will inevitably distort the competition. Hence, it would be very helpful if there is an automated way to curb plagiarism in student homework.
 
+## Tools Used
+#### Python 3
+Python is an interpreted, high-level, general-purpose programming language. As a dynamically typed language, Python is more flexible and it encourages problem solving with different methods. Additionally, Python is more error-tolerant when minor mistakes occur.
+
+*[Learn More](https://www.python.org/)*
+
+#### Django
+Django is a Python-based free and open-source web framework, which follows the model-template-view (MTV) architectural pattern. It encourages rapid development and pragmatic design with a support to avoid common security problems.
+
+*[Learn More](https://www.djangoproject.com/)*
+
 
 The backend logic is built under MVT pattern of Django, in which M(model) acts as the class abstraction of data tables in the database, T(template) is used to form a readable display of information and V(view) takes charge of the process of assigning the client requests to the specific rendering HTML template.
 
