@@ -18,6 +18,11 @@ Django is a Python-based free and open-source web framework, which follows the m
 
 *[Learn More](https://www.djangoproject.com/)*
 
+#### Bootstrap
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It also provides an easy and userful set of rules on grids and layouts operations.
+
+*[Learn More](https://getbootstrap.com/)*
+
 
 The backend logic is built under MVT pattern of Django, in which M(model) acts as the class abstraction of data tables in the database, T(template) is used to form a readable display of information and V(view) takes charge of the process of assigning the client requests to the specific rendering HTML template.
 
