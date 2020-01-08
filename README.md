@@ -1,4 +1,4 @@
-# Plagiarism-Detection
+# Plagiarism Detection System
 This is a Django Web application for detecting plagiarism in student homework.
 
 ## Background
@@ -6,6 +6,18 @@ This is a Django Web application for detecting plagiarism in student homework.
 With the rapid development of information technology, students nowadays can easily get access to an enormous amount of data. This could be greatly beneficial for their own literary or academic study. But on the other hand, this could also lead to a more frequent occurrence of plagiarism. <br/>
 
 Compared to the field of academic researches, where practitioners tend to have a high moral standard, plagiarism is more likely to happen in our daily student life. For example, some students would plagiarize in their essays because they run out of ideas or they simply want to get a better grade. Plagiarism like this is unfair to the other honest students and it will inevitably distort the competition. Hence, it would be very helpful if there is an automated way to curb plagiarism in student homework.
+
+## Descriptions
+
+D
+
+### Functions for Teachers
+
+- On
+
+### Functions for Students
+
+### Plagiarism Detection Algorithms
 
 ## Tools Used
 #### Python 3
