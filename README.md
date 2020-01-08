@@ -9,13 +9,21 @@ Compared to the field of academic researches, where practitioners tend to have a
 
 ## Descriptions
 
-D
+By default, this system groups users into two categories: teachers and students. Since teachers are in charge of the supervision of students' homework, we grant teachers a higher level of authorization and thus more functionalities.
 
-### Functions for Teachers
+As for the storage structure of homework files, we organize homework text files under different assignment topics. For example, a teacher can create a "Chapter 3 - Newton's Method" folder and all homework files uploaded regarding this topic are stored into that folder.
 
-- On
+### Functionalities for Teachers
 
-### Functions for Students
+- Teachers are able to manage all student accounts, including activating accounts or moving accounts into the blacklist.
+- Teachers can search, modify or delete any text files under his assignment topics.
+- Teachers can perform a plagiarism detection check based on text similarity calculation.
+- If the text similarity between two text files are greater than a threshold, a spot of plagiarism is found. Teachers can go on and take a look inside the similar sentences which are marked out in these files.
+
+### Functionalities for Students
+
+- Students can upload their homework text files under an assignment topic.
+- Students can modify or delete their homework files.
 
 ### Plagiarism Detection Algorithms
 
