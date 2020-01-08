@@ -23,6 +23,10 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 
 *[Learn More](https://getbootstrap.com/)*
 
+#### SQLite 3
+SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. The SQLite file format is stable, cross-platform, and backwards compatible.
+
+*[Learn More](https://www.sqlite.org/index.html)*
 
 The backend logic is built under MVT pattern of Django, in which M(model) acts as the class abstraction of data tables in the database, T(template) is used to form a readable display of information and V(view) takes charge of the process of assigning the client requests to the specific rendering HTML template.
 
