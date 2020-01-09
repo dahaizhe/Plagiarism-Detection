@@ -47,7 +47,16 @@ Sørensen–Dice similarity is also a statistic used to gauge the similarity of 
 
 SimHash is a technique for quickly estimating how similar two sets are. The algorithm is first used by the Google Crawler to find near duplicate pages. In this algorithm, a digital fingerprint will be generated according to each text block. Compared with conventional hashing algorithms that generates entirely different hashing results based on even slightly different inputs, SimHash is locality-sensitive. This ensures that two similar text inputs will generate two similar hashing results as well. Hence, we can take advantage of this property to quickly sort out similar text blocks based on their hashing outputs. 
 
+Since it's time consuming to cross compare all sentences pair by pair, we can simply take a homework text block as a whole entity and generate SimHash fingerprints based on these text blocks. Comparing the similarity (by calculating the Hamming distance) between those fingerprints will directly reflect the similarity between the original text blocks. So we can save a reasonable amount of time by comparing with entire homework text blocks rather than sentences.
+
 <img src="https://github.com/shengzheyang/Plagiarism-Detection/blob/master/PlagDetec/images/SimHash.jpg">
+
+#### System flow
+
+Given the above methods, we can construct our plagiarism detection work flow as below:
+1. Generate SimHash digital fingerprints for all homework text blocks. Perform cross comparison on these fingerprints to quickly pick out the suspicious pairs.
+2. Calculate various text similarity coefficients after stop-word removal. If these coefficients exceed a certain threshold, the system will judge them as a plagiarized pair.
+3. The system will look into this pair and scan through all sentences to pick out the plagiarized sentences with string matching methods.
 
 ## Tools Used
 #### Python 3
