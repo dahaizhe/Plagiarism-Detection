@@ -27,6 +27,18 @@ As for the storage structure of homework files, we organize homework text files 
 
 ### Plagiarism Detection Algorithms
 
+#### Bag-of-words Model
+
+Bag-of-words Model, a.k.a. Space Vector Model, is one of the simplifying way for the computers to represent or store text data. In this model, a text is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity. With this representation, we can easily transfer a text into a high-dimensional vector, which facilitates a subsequent calculation of text similarities.
+
+#### Cosine Similarity
+
+Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. The cosine similarity is particularly used in positive space, where the outcome is neatly bounded in [0, 1]. These bounds apply for any number of dimensions, and the cosine similarity is most commonly used in high-dimensional positive spaces. For example, in information retrieval and text mining, each term is notionally assigned a different dimension and a document is characterised by a vector where the value in each dimension corresponds to the number of times the term appears in the document. Cosine similarity then gives a useful measure of how similar two documents are likely to be in terms of their subject matter.
+
+#### Jaccard Similarity
+
+Jaccard similarity is a statistic used for gauging the similarity and diversity of sample sets. The Jaccard coefficient measures similarity between finite sample sets, and is defined as the size of the intersection divided by the size of the union of the sample sets. If we treat the words from the sentences as sample sets, we can calculate a similarity bounded in [0, 1], where a statistic near 0 indicates a less similarity while a statistic near 1 means that they are more similar between each others.
+
 ## Tools Used
 #### Python 3
 Python is an interpreted, high-level, general-purpose programming language. As a dynamically typed language, Python is more flexible and it encourages problem solving with different methods. Additionally, Python is more error-tolerant when minor mistakes occur.
