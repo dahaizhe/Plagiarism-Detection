@@ -39,6 +39,14 @@ Cosine similarity is a measure of similarity between two non-zero vectors of an 
 
 Jaccard similarity is a statistic used for gauging the similarity and diversity of sample sets. The Jaccard coefficient measures similarity between finite sample sets, and is defined as the size of the intersection divided by the size of the union of the sample sets. If we treat the words from the sentences as sample sets, we can calculate a similarity bounded in [0, 1], where a statistic near 0 indicates a less similarity while a statistic near 1 means that they are more similar between each others.
 
+#### Sørensen–Dice Similarity
+
+Sørensen–Dice similarity is also a statistic used to gauge the similarity of two sample sets. Similar to Jaccard similarity, it is also bounded in [0, 1] and the bigger the statistic is, the more similar these two texts are.
+
+#### SimHash
+
+SimHash is a technique for quickly estimating how similar two sets are. The algorithm is first used by the Google Crawler to find near duplicate pages. In this algorithm, a digital fingerprint will be generated according to each text block. Compared with conventional hashing algorithms that generates entirely different hashing results based on even slightly different inputs, SimHash is locality-sensitive. This ensures that two similar text inputs will generate two similar hashing results as well. Hence, we can take advantage of this property to quickly sort out similar text blocks based on their hashing outputs. 
+
 ## Tools Used
 #### Python 3
 Python is an interpreted, high-level, general-purpose programming language. As a dynamically typed language, Python is more flexible and it encourages problem solving with different methods. Additionally, Python is more error-tolerant when minor mistakes occur.
