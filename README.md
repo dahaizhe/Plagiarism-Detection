@@ -51,7 +51,7 @@ Since it's time consuming to cross compare all sentences pair by pair, we can si
 
 <img src="https://github.com/shengzheyang/Plagiarism-Detection/blob/master/PlagDetec/images/SimHash.jpg">
 
-#### System flow
+### System flow
 
 Given the above methods, we can construct our plagiarism detection work flow as below:
 1. Generate SimHash digital fingerprints for all homework text blocks. Perform cross comparison on these fingerprints to quickly pick out the suspicious pairs.
@@ -78,7 +78,3 @@ Bootstrap is a free and open-source CSS framework directed at responsive, mobile
 SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. The SQLite file format is stable, cross-platform, and backwards compatible.
 
 *[Learn More](https://www.sqlite.org/index.html)*
-
-The backend logic is built under MVT pattern of Django, in which M(model) acts as the class abstraction of data tables in the database, T(template) is used to form a readable display of information and V(view) takes charge of the process of assigning the client requests to the specific rendering HTML template.
-
-As for the frontend, Bootstrap makes sure it is easy and friendly for users to visualize the similar part of the text segments and the exact numbers of similar text portions.
