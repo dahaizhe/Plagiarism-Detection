@@ -33,11 +33,11 @@ Bag-of-words Model, a.k.a. Space Vector Model, is one of the simplifying way for
 
 #### Cosine Similarity
 
-Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. The cosine similarity is particularly used in positive space, where the outcome is neatly bounded in [0, 1]. These bounds apply for any number of dimensions, and the cosine similarity is most commonly used in high-dimensional positive spaces. For example, in information retrieval and text mining, each term is notionally assigned a different dimension and a document is characterised by a vector where the value in each dimension corresponds to the number of times the term appears in the document. Cosine similarity then gives a useful measure of how similar two documents are likely to be in terms of their subject matter.
+Cosine similarity is a measure of similarity between two non-zero vectors of an inner product space that measures the cosine of the angle between them. The cosine similarity is particularly used in positive space, where the outcome is neatly bounded in [0, 1]. These bounds apply for any number of dimensions, and the cosine similarity is most commonly used in high-dimensional positive spaces. For example, in information retrieval and text mining, each term is notionally assigned a different dimension and a document is characterized by a vector where the value in each dimension corresponds to the number of times the term appears in the document. Cosine similarity then gives a useful measure of how similar two documents are likely to be in terms of their subject matter.
 
 #### Jaccard Similarity
 
-Jaccard similarity is a statistic used for gauging the similarity and diversity of sample sets. The Jaccard coefficient measures similarity between finite sample sets, and is defined as the size of the intersection divided by the size of the union of the sample sets. If we treat the words from the sentences as sample sets, we can calculate a similarity bounded in [0, 1], where a statistic near 0 indicates a less similarity while a statistic near 1 means that they are more similar between each others.
+Jaccard similarity is a statistic used for gauging the similarity and diversity of sample sets. The Jaccard coefficient measures similarity between finite sample sets, and is defined as the size of the intersection divided by the size of the union of the sample sets. If we treat the words from the sentences as sample sets, we can calculate a similarity bounded in [0, 1], where a statistic near 0 indicates a less similarity while a statistic near 1 means that they are more similar between each other.
 
 #### Sørensen–Dice Similarity
 
